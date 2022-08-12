@@ -1,0 +1,5 @@
+<h2> {{ getTitle() }} </h2>
+<button class="btn btn-primary" [class.active]="isActive && !notActive">Save</button>
+<ul>
+  <li *ngFor="let course of courses">{{course}}</li>
+</ul>
